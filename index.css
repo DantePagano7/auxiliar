@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+
+}
+.Bar-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    opacity: 77%;
+}
+
+.Main-container {
+    position: relative;
+    display: inline-block
+}
+
+.timer {
+    background-color: black;
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: mintcream;
+    outline: 4px solid mintcream;
+    border-radius: 3px;
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+}
+
+.enemy-health {
+    position: absolute;
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 2px
+}
+
+.enemy-health-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.enemy-health-padd {
+    background-color: red;
+    height: 30px;
+    outline: 4px solid mintcream;
+    border-radius: 3px
+}
+
+
+
+
+.player-health {
+    position: absolute;
+    background-color: blue;
+    height: 30px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px
+}
+
+.player-health-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.player-health-padd {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+    outline: 4px solid mintcream;
+    border-radius: 3px
+}
+
+.text {
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    font-size: 100px;
+    font-family: 'Press Start 2P';
+    -webkit-text-fill-color: yellow;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 6.00px;
+}
