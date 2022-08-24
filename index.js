@@ -310,7 +310,7 @@ window.addEventListener('keydown', (event) => {
                 }
                 break
 
-            case 'ñ':
+            case 'l':
                 if (PAA) {
                     playerCooldown()
                     player.attack()

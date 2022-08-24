@@ -37,7 +37,7 @@ function decreaseTimer() {
 var EAA = true
 function enemyCooldown() {
     EAA = false
-    setTimeout(()=>EAA = true,1000)
+    setTimeout(()=>EAA = true,1750)
 }
 
 
