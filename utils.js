@@ -37,7 +37,7 @@ function decreaseTimer() {
 var EAA = true
 function enemyCooldown() {
     EAA = false
-    setTimeout(()=>EAA = true,1750)
+    setTimeout(()=>EAA = true,1000)
 }
 
 
@@ -53,7 +53,7 @@ function playerCooldown() {
 var EJA = true
 function enemyCooldownJump() {
     EJA = false
-    setTimeout(() => EJA = true, 1000)
+    setTimeout(() => EJA = true, 1500)
 }
 
 
